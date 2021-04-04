@@ -1,0 +1,331 @@
+.link {
+	color: ##167ac6 !important;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+.car img{
+ width: 100%;
+}
+.link:focus{
+	color: #10c9c4 !important;
+}
+.link:hover{
+	color: #10c9c5 !important
+}
+.contentcar img{
+	width: 100%;
+}
+.detailcar{
+	width: 100%;
+	font-weight: bold;
+	font-size: 23px;
+	color: #10c9c4;
+}
+.text-right{
+	text-align: right;
+}
+.showprice{
+	padding: 10% 5% 10% 5%;
+}
+.col{
+	font-weight: bold;
+	font-size: 20px;
+}
+.big{
+	font-size: 80px;	
+	color: red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.contact-base{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+.contact p{
+	
+}
+.item{
+	color: blue;
+	font-weight: bold;
+	font-size: 20px;
+}
+.bg-car{
+	background: #dadada;
+}
+.installment-box{
+	border-left: 4px solid red;
+	margin-left: 20px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+.installment-item{
+	background: #eaeaea;
+}
+footer{
+	background: #141414;
+	color: white;
+	padding: 5% 0;
+}
+footer ul{
+	list-style: none;
+}
+footer	span{
+	font-weight: bold;
+	font-size: 19px;
+}
+footer form{
+	border: 1px solid #816f6f;
+	padding: 2em;
+	border-radius: 1em;
+	background: #2e2b2b;	
+}
+.slide{
+	width: 80%;
+	margin: 0 auto;
+}
+.sticky{
+	width: 100%;
+}
+.charac{
+	margin: 0 auto;
+	font-size: 13px;
+}
+.about-vinfast p{
+	font-weight: bold;
+	color: red;
+}
+h1,h2,h3,h4{
+	color: red;
+	font-weight: bold !important;
+}
+.sale h4{
+	font-size: 18px;
+	font-weight: bold;
+}
+.small{
+	font-size: 50px;	
+	color: red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.small2{
+	font-size: 50px;	
+	color: red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+.small3{
+	font-size: 50px;	
+	color: blue;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+.image img{
+	width: 100%;
+	height: 100%;
+}
+.price{
+	background-color: #0328b0;
+	color: white;
+	width: 30%;
+	margin: 0 auto;
+}
+.text{
+	font-size: 15px;
+	padding: 15px 0;
+}
+.width70{
+	width: 70%;
+	margin: 0 auto;
+}
+.choose{
+	padding-top: 20px;
+}
+.choose-item{	
+	font-size: 110%;
+	background-color: red;
+	color: white;
+	padding: 30px;
+	margin: 2px 2px;
+	border-radius: 13px;
+}
+.bg-red {
+	background: red;
+}
+.logo img{
+	width: 	70%;			
+}
+.logo{
+	width: 50%;
+}
+.menu{
+	background-color: #f62626;
+}
+.menu a{
+	color: #000 !important;
+}
+
+.menu a:focus{
+	color: #10c9c4 !important;
+}
+.menu a:hover{
+	color: #10c9c5 !important
+}
+.menu ul li{
+	font-weight: bold;
+	font-size: 14px;
+}
+.menu-button{
+	border: 2px solid #dee2e6;
+	border-radius: 6px;
+}
+.ml-auto{
+	margin-left: auto;
+	
+}
+/*mạng xã hội*/
+ .social-button{
+      display: inline-grid;
+        position: fixed;
+        bottom: 15px;
+        left: 45px;
+        min-width: 45px;
+        text-align: center;
+        z-index: 99999;
+    }
+    .social-button-content{
+      display: inline-grid;   
+    }
+    .social-button a {padding:8px 0;cursor: pointer;position: relative;}
+    .social-button i{
+      width: 40px;
+        height: 40px;
+        background: #43a1f3;
+        color: #fff;
+        border-radius: 100%;
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.9;
+        position: relative;
+        z-index: 999;
+    }
+    .social-button span{
+      display: none;
+    }
+    .alo-circle-fill {
+      animation-iteration-count: infinite;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-name: pulse;
+        width: 60px;
+        height: 60px;
+        top: -2px;
+        right: -8px;
+        position: absolute;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+        border: 2px solid transparent;
+        background-color: rgba(0, 175, 242, 0.5);
+        opacity: .75;
+    }
+    .call-icon:hover > span, .mes:hover > span, .sms:hover > span, .zalo:hover > span{display: block}
+    .social-button a span {
+        border-radius: 2px;
+        text-align: center;
+        background: rgb(103, 182, 52);
+        padding: 9px;
+        display: none;
+        width: 180px;
+        margin-left: 10px;
+        position: absolute;
+        color: #ffffff;
+        z-index: 999;
+        top: 9px;
+        left: 40px;
+        transition: all 0.2s ease-in-out 0s;
+        -moz-animation: headerAnimation 0.7s 1;
+        -webkit-animation: headerAnimation 0.7s 1;
+        -o-animation: headerAnimation 0.7s 1;
+        animation: headerAnimation 0.7s 1;
+    }
+    @-webkit-keyframes "headerAnimation" {
+        0% { margin-top: -70px; }
+        100% { margin-top: 0; }
+    }
+    @keyframes "headerAnimation" {
+        0% { margin-top: -70px; }
+        100% { margin-top: 0; }
+    }
+    .social-button a span:before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent rgb(103, 182, 52) transparent transparent;
+      position: absolute;
+      left: -10px;
+      top: 10px;
+    }
+@media (max-width: 990px){
+	.about-vinfast{
+		text-align: center;
+	}
+	.width70{
+		width: 100%;
+	}
+	.slide{
+		width: 100%;
+	}
+}
+@media (max-width: 990px) and (min-width:720px){
+	.car>img{
+		width: 90%;
+	}
+	.social-button{
+		left: 10px;
+	}
+}
+@media (max-width: 480px){
+	.car img{
+		width: 80%;
+	}
+	.sticky{
+		position: fixed;
+		z-index: 1;
+	}
+}
+@media (max-width: 1400px){
+	.price{
+		width: 60%;
+	}
+}
+@media (max-width: 720px){
+	.social-button{
+		left: 5px;
+	}
+}
+@media (min-width: 720px){
+	.hide{
+		display: none;
+	}
+}
